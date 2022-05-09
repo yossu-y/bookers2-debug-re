@@ -2,7 +2,7 @@ class BookComment < ApplicationRecord
 
   belongs_to :user
   belongs_to :book
-  
-  validates :book_comments, presence: true
+
+  validates :comments, presence: true
 
 end
